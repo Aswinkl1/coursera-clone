@@ -1,0 +1,150 @@
+/* *************************Main-Black-header-CSS******************************* */
+
+.main-header-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 26px;
+    background-color: #2f1717;
+    z-index: 100;
+}
+.right-header-div{
+    display: flex;
+    width: 400px;
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+   
+}
+.first-header-info{
+   
+    
+    color: white;
+    font-size: 10px;
+    padding: 7px 9px;
+    
+
+}
+.first-header-info:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* ************************************************************************************************************** */
+
+/* ********************************************Secondary Header ***************************************************** */
+
+.secondary-header-div{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 26px;
+    right: 0;
+    left: 0;
+    height: 44px;
+    border-bottom: 1px solid #e3e2e2;
+    background-color: rgb(255, 255, 255);
+    z-index: 100;
+
+}
+
+
+.secondary-right-header-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 193px;
+    /* background-color: lightcoral; */
+
+}
+
+.image-cousera{
+    height: 20px;
+    padding-left: 4px;
+}
+
+.right-header-button{
+    padding: 7px 14px;
+    background-color: rgb(0, 86, 210);
+    color: white;
+    border-radius: 3px;
+    /* border: 1px solid black; */
+    border: 0;
+    font-size: 9px;
+    font-weight: bold;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.05) inset;
+
+}
+
+.search-header-div{
+    display: flex;
+    flex: 1;
+    max-width: 308px;
+    background-color: beige;
+    height: 27px;
+    margin-left: -221px
+
+}
+
+.search-header{
+    flex: 1;
+    min-width: 0;
+    outline: none;
+    
+}
+
+.search-header::placeholder{
+    font-size: 10px;
+    font-weight: 50;
+    
+}
+
+.search-button{
+    
+    background-color:rgb(0, 86, 210) ;
+    border: 0;
+    width: 28px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid gray;
+    margin-left: -1px;
+    
+}
+
+.img-search{
+   margin: 6px 0;
+    height: 13px;
+}
+
+.header-right-div{
+    display: flex;
+   font-size: 9px;
+    width: 300px;
+    /* background-color: lightslategrey; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.header-right-online{
+    
+}
+
+
+.header-button-right{
+    padding: 7px 3px;
+    background-color: rgb(0, 86, 210) ;
+    border: 0;
+    font-size: 9px;
+    font-weight: bold;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.05) inset;
+    color: white;
+    border-radius: 3px;
+
+}
