@@ -1,0 +1,133 @@
+.degree-section{
+    margin-left: 58px;
+    margin-right: 58px;
+    /* background-color: antiquewhite; */
+    height: 450px;
+    margin-top: 65px;
+}
+
+.heading-degree-section{
+    font-size: 15px;
+    color: rgb(56 45 139);;
+}
+
+.sub-heading{
+    font-size: 26px;
+}
+
+.degree-quote{
+    color: rgb(31 31 31);
+    font-size: 13px;
+}
+
+.main-degree-card-div{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 30px;
+    margin-left: 38px;
+    margin-right: 38px;
+
+}
+
+.card-div{
+    /* background-color: rgb(206, 230, 230); */
+    height: 259px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+}
+
+.card-div:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-card-degree{
+    width: 183px;
+    border-radius: inherit;
+}
+
+.collage-logo-div{
+    margin-top: 5px;
+    display: flex;
+    
+    margin-left: 10px;
+}
+
+.collage-logo{
+    width: 15px;
+    border-radius: 3px;
+    /* margin-left: 8px; */
+}
+
+.collage-name{
+    
+     color:  rgb(99 99 99);
+     font-size: 9px;
+     margin-left: 12px;
+}
+
+.card-bottom{
+    margin-left: 10px;
+}
+
+.course-name-degree{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.earn-degree{
+    display: flex;
+    font-size: 9px;
+    color: rgb(0, 86, 210);
+}
+
+.graduation-hat{
+    margin-right: 5px;
+    
+    width: 13px;
+
+}
+
+.degree{
+    font-size: 9px;
+    color: rgb(99, 99, 99);
+}
+
+.bubles-div{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.buble1{
+    width: 5px;
+    border-radius: 50%;
+    background-color: gray;
+    height: 5px;
+}
+
+.buble2{
+    width: 7px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 7px;
+}
+
+.explore{
+    
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: rgb(0, 86, 210);
+    font-weight: bolder;
+}
+
+.img-explore{
+    width: 17px;
+    margin-left: 5px;
+}
